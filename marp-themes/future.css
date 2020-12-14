@@ -1,0 +1,71 @@
+/* @theme future */
+
+@import 'default';
+
+section.title h1 {
+  font-family: "Arial", "メイリオ";
+  font-weight: bold;
+  color: #ddd;
+}
+
+section.title {
+  background-color: #006835;
+  color: #ccc;
+}
+
+h1 {
+  color: #666;
+  font-family: "Arial", "メイリオ";
+}
+
+h2 {
+  color: #666;
+}
+
+h3 {
+  color: rgb(189, 88, 79);
+}
+
+h3::before {
+  content: "●";
+  font-size: 0.9rem;
+}
+
+section.force h1 {
+  font-family: "Arial", "メイリオ";
+  color: #4596e2;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+section.force {
+  color: #555;
+  background-color: #fff1d6;
+  font-size: 45px;
+}
+
+section.content h1 {
+  font-family: "Arial", "メイリオ";
+  color: #4596e2;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+section.thin h1 {
+  font-family: "Arial", "メイリオ";
+  color: #4596e2;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.thin  {
+  font-size: 25px;
+}
+
+section.thin li  {
+  line-height: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+
