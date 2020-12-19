@@ -560,9 +560,9 @@ class: content
 # 諸々設計し直しての感想
 
 - Firestoreは設計が重要
-- gqlとgraphql-codegenは組み合わせでbackendとfrontendの乖離をカバーできる
-- gqlはモック実装も、ほぼノーコストで行えるのでチーム開発でも優良
-- frontend界隈でもGraphQL周りの便利ツールがでてきたので積極的に試していきたい
+- gqlgenとgraphql-codegenは組み合わせでbackendとfrontendの乖離をカバーできる
+- gqlgenはモック実装も、ほぼノーコストで行えるのでチーム開発でも優良
+- フロントエンド界隈でもGraphQL周りの便利ツールがでてきたので積極的に試していきたい
   - https://github.com/dotansimha/graphql-eslint
   - https://github.com/apollographql/eslint-plugin-graphql
 
